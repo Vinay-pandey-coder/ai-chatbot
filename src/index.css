@@ -4,3 +4,23 @@
 body{
   font-family: "Roboto",sans-serif;
 }
+
+
+::-webkit-scrollbar {
+  width: 8px;            
+}
+
+::-webkit-scrollbar-track {
+  background: #101828;   
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1F2937;   
+  border-radius: 10px;
+}
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1F2937 #0D1117; 
+}
