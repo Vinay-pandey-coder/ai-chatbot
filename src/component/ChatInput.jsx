@@ -36,6 +36,7 @@ const ChatInput = ({
               } rounded-full px-5 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent`}
             />
             <button
+              onClick={()=>{handleSendMessage()}}
               className={` p-3 rounded-full transition-colors shadow-md cursor-pointer ${
                 darkMode ? "bg-gray-700" : "bg-white"
               }`}
